@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Spalshscreen"
+    android:orientation="vertical"
+    android:background="#65587f">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="250sp"
+        android:layout_height="250sp"
+        android:src="@drawable/covid_logo"
+        android:layout_gravity="center"
+        android:layout_marginTop="50sp"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/covid_19_tracker"
+        android:textColor="@color/font_color"
+        android:textSize="35sp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-condensed-medium"/>
+
+  <com.wang.avi.AVLoadingIndicatorView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/loading"
+      android:visibility="visible"
+      app:indicatorName="BallPulseIndicator"
+      app:indicatorColor="@color/font_color"
+      style="@style/AVLoadingIndicatorView"
+      android:layout_gravity="center"
+      android:layout_marginTop="200sp" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/checking_your_internet_connection"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:textColor="@color/font_color"
+        android:id="@+id/connect_txt"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/font_color"
+        android:text="@string/made_in_india"
+        android:layout_gravity="center"
+        android:layout_marginTop="25sp"
+        android:textSize="25sp"/>
+
+   <com.google.android.material.textview.MaterialTextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/developed"
+       android:layout_gravity="center"
+       android:textColor="@color/font_color"/>
+
+</LinearLayout>

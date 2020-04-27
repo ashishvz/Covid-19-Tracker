@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Covid-19 Tracker</string>
+    <string name="checking_your_internet_connection">Checking your Internet Connection!!</string>
+    <string name="developed">Designed and Developed by Ashish Zingade</string>
+    <string name="covid_19_tracker">Covid-19 Tracker</string>
+    <string name="made_in_india">Made in India</string>
+    <string name="no_internet">Please Check Your Internet Connection!!</string>
+    <string name="global">Global</string>
+    <string name="new_confirmed">New Confirmed</string>
+    <string name="total_confirmed">Total Confirmed</string>
+    <string name="new_deaths">New Deaths</string>
+    <string name="total_deaths">Total Deaths</string>
+    <string name="new_recovered">New Recovered</string>
+    <string name="total_recovered">Total Recovered</string>
+    <string name="_00000">00000</string>
+    <string name="current_location">Internet Connected! Checking for your Current Location</string>
+    <string name="India">India</string>
+    <string name="currentlocation_main">Current Location :</string>
+    <string name="basedonloc">Based on Current City</string>
+    <string name="active_cases">Active Cases</string>
+    <string name="confirmed_cases">Confirmed Cases</string>
+    <string name="recovered_cases">Recovered Cases</string>
+    <string name="death_cases">Death Cases</string>
+</resources>
